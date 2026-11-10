@@ -1,71 +1,130 @@
-# WALID ZEIDI
-**Développeur Web Full Stack Senior**
+# Portfolio Web — Walid ZAIDI 🚀
 
-📧 **Email :** zaidi.walid@gmail.com  
+> Application web interactive & portfolio personnel pour **Walid ZAIDI**, Développeur Full Stack & Intégrateur Senior (17+ ans d'expérience).
+
+---
+
+## 📋 Table des matières
+
+- [À propos](#-à-propos)
+- [Fonctionnalités](#-fonctionnalités)
+- [Stack Technique](#-stack-technique)
+- [Prérequis](#-prérequis)
+- [Installation et Démarrage](#-installation-et-démarrage)
+- [Scripts Disponibles](#-scripts-disponibles)
+- [Structure du Projet](#-structure-du-projet)
+- [Contact](#-contact)
+- [Licence](#-licence)
+
+---
+
+## 👨‍💻 À propos
+
+Ce projet héberge le portfolio en ligne de **Walid ZAIDI**. Le site présente :
+- Un profil complet avec un style API/Terminal (`whoami`, routes HTTP `GET`/`POST`/`PUT`).
+- Le parcours professionnel chronologique (17 ans d'expérience).
+- La stack technique détaillée (Laravel, Vue.js, Node.js, MySQL high-load, etc.).
+- La formation académique et les langues.
+- Un formulaire de contact direct et le téléchargement du CV en format PDF.
+
+---
+
+## ✨ Fonctionnalités
+
+- **Interface interactive & moderne :** Mode clair/sombre, animations fluides, design responsive & Mobile-First.
+- **Visualisation des expériences :** Présentation sous forme d'endpoints API (`/affitech/full-stack-dev`, `/siroko-travel/tech-lead`, etc.).
+- **Filtrage des projets & compétences :** Navigation par catégories techniques.
+- **Formulaire de contact :** Envoi direct de messages via API / Webhook.
+- **Génération / Téléchargement du CV PDF.**
+
+---
+
+## 🛠 Stack Technique
+
+### Application
+- **Front-end :** [Vue.js 3](https://vuejs.org/) (Composition API), [TypeScript](https://www.typescriptlang.org/), HTML5, CSS3 / Sass
+- **Build Tool :** [Vite](https://vitejs.dev/)
+- **Back-end & API :** Node.js / PHP (Laravel)
+- **Base de données :** MySQL (Forte volumétrie)
+- **DevOps :** Docker, Git / GitHub
+
+---
+
+## ⚙️ Prérequis
+
+Avant de commencer, assurez-vous de disposer de :
+- **Node.js** `>= 18.x`
+- **npm** `>= 9.x` (ou **pnpm** / **yarn**)
+
+---
+
+## 🚀 Installation et Démarrage
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/walid-zaidi/walid-zaidi-cv.git
+   cd walid-zaidi-cv
+   ```
+
+2. **Installer les dépendances :**
+   ```bash
+   npm install
+   ```
+
+3. **Configurer les variables d'environnement :**
+   Créer un fichier `.env` à la racine à partir de `.env.example` :
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Lancer le serveur de développement :**
+   ```bash
+   npm run dev
+   ```
+   L'application sera accessible sur `http://localhost:5173`.
+
+---
+
+## 📜 Scripts Disponibles
+
+| Commande | Description |
+| :--- | :--- |
+| `npm run dev` | Démarrer le serveur de développement avec HMR |
+| `npm run build` | Compiler et optimiser le projet pour la production |
+| `npm run preview` | Prévisualiser le build de production en local |
+| `npm run lint` | Exécuter le linter ESLint et corriger les erreurs de style |
+
+---
+
+## 🗂 Structure du Projet
+
+```text
+walid-zaidi-cv/
+├── public/              # Fichiers statiques (favicon, CV PDF, images)
+├── src/
+│   ├── assets/          # Styles Sass/CSS, icônes, logos
+│   ├── components/      # Composants UI (Header, ExperienceCard, ContactForm, etc.)
+│   ├── data/            # Données structurées (expériences, compétences, projets)
+│   ├── views/           # Vue principale (HomeView, ProjectsView)
+│   ├── App.vue          # Composant racine
+│   └── main.ts          # Point d'entrée TypeScript
+├── .env.example         # Exemple de configuration environnement
+├── package.json         # Dépendances et scripts
+└── vite.config.ts       # Configuration de Vite
+```
+
+---
+
+## 📞 Contact
+
+**Walid ZAIDI** — Développeur Full Stack & Intégrateur Senior  
+📍 Tunis, Tunisie  
+✉️ **Email :** [zaidi.walid@gmail.com](mailto:zaidi.walid@gmail.com)  
 📞 **Téléphone :** +216 50 65 61 49  
-📍 **Localisation :** Tunis, Tunisie (Nationalité tunisienne)  
-🌐 **Mobilité :** Ouvert au Remote (Télétravail) & Opportunités à l'international  
-🔗 **LinkedIn :** [linkedin.com/in/walid-zeidi](https://linkedin.com/in/walid-zeidi)  
+🔗 **LinkedIn :** [linkedin.com/in/walid-zaidi-dev](https://linkedin.com/in/walid-zaidi-dev)  
 
 ---
 
-## 📝 Résumé
-Fort de 17 années d'expérience dans le développement web, j'allie une double compétence technique et opérationnelle : de l'architecture logicielle haute performance aux interfaces utilisateur modernes. Spécialisé dans la création d'applications sur mesure, l'intégration d'API complexes, l'optimisation de la vitesse d'affichage et le SEO technique (Google Search Console & Analytics), je maîtrise le cycle de vie complet des projets. Agnostique sur les technologies et hautement adaptable, je conçois des solutions robustes, évolutives et axées sur la performance, l'expérience utilisateur et la valeur business.
+## 📄 Licence
 
----
-
-## 💼 Expérience Professionnelle
-
-### 🚀 Développeur Web Full Stack | Affitech
-*Janvier 2025 – Juin 2026 | Ariana, Tunisie*
-- **Intégration d'API & Data :** Développement et intégration d'API REST tiers (Powens, Enedis, Santévet, Bulle Bleue) pour la centralisation et la synchronisation sécurisée de données (bancaires, énergie, assurance).
-- **Visualisation & Analyse de Données :** Intégration de graphiques dynamiques et tableaux de bord interactifs pour l'analyse, le suivi des métriques et la restitution visuelle de données complexes.
-- **Architecture & Moteurs Métier :** Conception du moteur de segmentation marketing **Helee** (traitement temps réel de millions de profils / MySQL à forte volumétrie) et du système de contrôle qualité par IA **Scribb**.
-- **Plateformes :** Co-conception des plateformes **AffiConnect** (gestion de centres d'appels, agents et scripts de vente) et **Affi+** (gestion de contrats d'énergie).
-
-### 🎨 Développeur Front-End & Intégrateur UI/UX | 1WayDev
-*Février 2023 – Janvier 2025 | Ariana, Tunisie*
-- **Intégration Graphique & UI :** Transposition de maquettes graphiques en interfaces web dynamiques, réactives et conformes aux normes UI/UX et Responsive Design.
-- **Collaboration & Intégration :** Collaboration étroite avec les équipes de design et de développement pour assurer l'intégration des composants front-end et l'optimisation des interfaces utilisateur.
-- **Performance & Base de Données :** Participation à la gestion et à l'optimisation des bases de données pour garantir l'intégrité des données et la performance des sites.
-
-### 🛠️ Développeur Web Freelance / Chef de Projet | AZ Esthétique
-*Décembre 2022 – Janvier 2023 | Tunis, Tunisie*
-- **Plateforme Métier & Parcours Patient :** Conception d'une plateforme de gestion complète du parcours patient en chirurgie esthétique (diagnostic à distance, génération de devis, gestion des médias et suivi post-opératoire).
-- **Développement Web & UI/UX :** Création du site web sous WordPress (thème sur mesure, développement de plugins métier, intégration UI/UX et charte graphique).
-
-### 👨‍💻 Responsable Technique | Siroko Travel
-*Février 2012 – Décembre 2022 | Tunis, Tunisie*
-- **Architecture Multi-plateformes :** Conception et interconnexion en temps réel de 3 portails sur mesure (Patients, Chirurgiens, Agents) adossés à une base de données centralisée et sécurisée pour la gestion des dossiers médicaux (diagnostics, devis, suivi post-opératoire).
-- **Développement Web WordPress :** Conception et réalisation de sites web sous WordPress (thèmes et plugins sur mesure, intégration UI/UX et charte graphique) pour des institutions et acteurs du tourisme, notamment la Fédération Interprofessionnelle du Tourisme Tunisien et l'agence de voyages Explore.
-
-### 💻 Webmaster | Siroko Travel
-*Octobre 2009 – Février 2012 | Tunis, Tunisie*
-- **Développement Web & Stratégie SEO :** Conception, optimisation de la rapidité et gestion d'un réseau de 15+ sites web. Suivi des performances SEO via Google Search Console & Google Analytics pour propulser le trafic organique et maximiser la génération de devis.
-- **Administration Système :** Administration du serveur interne et gestion des sessions utilisateurs.
-
----
-
-## 🛠️ Compétences Techniques
-
-- **Langages & Frameworks :** PHP, JavaScript, HTML5, CSS3 / Sass / Less, WordPress (thèmes et plugins sur mesure)
-- **Architecture & Moteurs Métier :** Architecture MVC, POO, conception de bases de données relationnelles (MySQL), optimisation pour fortes volumétries (High Load), traitement de données en temps réel
-- **API & Intégrations :** Conception, développement et intégration d'API REST, Webhooks, synchronisation et centralisation sécurisée de données tiers (bancaires, assurances, services)
-- **Performance Web & Optimisation :** Optimisation du temps de chargement et de la rapidité (Web Vitals, mise en cache, minification, lazy loading, requêtes SQL haute performance)
-- **SEO & Webmarketing :** Référencement naturel (SEO technique et structurel), audit et suivi via Google Search Console et Google Analytics, stratégies multisites
-- **Intégration & UI/UX :** Transposition de maquettes graphiques (Pixel Perfect), Responsive Design, Mobile-First, normes d'accessibilité web (RGAA / WCAG)
-- **DevOps & Outils de Collaboration :** Git, GitHub, Jira, Confluence, Slack, Méthodologies Agiles (Scrum, Kanban)
-- **Sécurité & Conformité :** Chiffrement des données, gestion des accès, conformité RGPD
-
----
-
-## 🎓 Formations & Diplômes
-
-- **2009 :** Licence Appliquée en Art et Multimédia (Spécialité Communication Multimédia) — **ISAMM** (Institut Supérieur des Arts Multimédia de la Manouba)
-
----
-
-## 🗣️ Langues
-
-- **Français :** Avancé
-- **Anglais :** Professionnel / Technique (Lu, écrit, échanges techniques)
+Ce projet est sous licence [MIT](LICENSE).
